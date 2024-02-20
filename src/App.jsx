@@ -1,8 +1,12 @@
+import ContainerSocialMedia from "./Components/ContainerSocialMedia"
+import Header from "./Components/Header"
+
 function App() {
     return (
-    <>
-	    <h1 className='bg-red-500 text-[60px]'>Titulo</h1>
-    </>
+    <div className="bg-DarkTheme-VeryDarkBlueBG px-6">
+	    <Header />
+      <ContainerSocialMedia />
+    </div>
   )
 }
 
